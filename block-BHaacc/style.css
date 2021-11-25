@@ -1,0 +1,285 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*custom styles*/
+body{
+    line-height: 1.5;
+}
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+}
+.space-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+/*header*/
+.header{
+    background: linear-gradient(to right ,rgba(69,133,212,0.7), rgba(139,242,148,0.7)),url(assets/home-bg.jpg) center center no-repeat  ;
+    background-size: cover;
+    
+    color: white;
+}
+h1{
+    width: 10%;
+}
+.width-2{
+    width: 60%;
+}
+.space-between i{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.space-between button{
+    margin-left: 30px;
+}
+.width-2 li{
+    margin-right: 40px;
+}
+.width-2 li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+h1{
+    font-size: 30px;
+}
+h2{
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+.figure,.div{
+    width: 50%;
+}
+.padding{
+    padding: 180px 0;
+}
+.div{
+    align-self: flex-start;
+}
+.header button{
+    padding: 5px 10px;
+    color: white;
+    background-color: red;
+    box-shadow: 0;
+    border: none;
+    border-radius: 20px;
+}
+ .btn-1{
+    padding: 5px 10px;
+    color: white;
+    box-shadow: 0;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+/*section01*/
+.section01{
+    margin-top: 30px;
+}
+.child01{
+    width: 40%;
+    padding-right: 30px;
+}
+.barchart, .image01{
+    width: 30%;
+}
+.image01 img{
+    width: 100%;
+}
+.bar{
+    background-color: black;
+    width: 85%;
+    height: 4px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.bar-1{
+    width: 90%;
+}
+.bar-2{
+    width: 75%;
+}
+.bar-3{
+    width: 70%;
+}
+/*section1*/
+.section1{
+    background-color: #EFEFEF;
+    padding-bottom: 80px;
+    padding-top: 40px;
+}
+.section1 h3{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.wraper{
+    flex-wrap: wrap;
+}
+.child-1-1{
+    width: 50%;
+}
+.child-1-2{
+    width: 50%;
+    padding: 0 10px;
+}
+.height-1{
+    height: 300px;
+    width: 45%;
+    background-color: white;
+    margin-bottom: 30px;
+}
+.height-1 .child-1-1 img{
+    width: 100%;
+    height: 300px;
+}
+/*section2*/
+.section2 h3{
+    text-align: center;
+    margin-top: 30px;
+}
+.section2 .images{
+    width: 23%;
+    height: 200px;
+    margin-bottom: 100px;
+    margin-top: 40px;
+}
+.section2 .images img{
+    width: 100%;
+    height: 100%;
+}
+/*section3*/
+.section3{
+    background-image: linear-gradient(to right,#1277E4,#7DF265);
+    color: white;
+}
+.section3 .center{
+    text-align: center;
+}
+.child-1{
+    width: 65%;
+}
+/* .hundred{
+    width: 100%;
+} */
+.height{
+    padding-bottom: 80px ;
+    padding-top: 30px;
+}
+.child-2{
+    width: 30%;
+   height: 302px;
+}
+.section3 .space-between{
+    align-items: flex-start;
+}
+.child-2 iframe{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.section3 .child-1 .c1{
+    width: 48%;
+    background-color:  white;
+    margin-bottom: 20px;
+   
+    padding: 10px;
+    color: #A1A1A1;
+}
+.c2{
+    width: 100%;
+    background-color:  white;
+    margin-bottom: 20px;
+    padding: 10px;
+    color: #A1A1A1;
+    padding-bottom: 80px;
+}
+.section3 button{
+    width: 20%;
+    margin-left: 0;
+    padding: 10px 0;
+    border-radius: none;
+    color: white;
+    background-color: red;
+    border-radius: 20px;
+    box-shadow: none;
+}
+/**/
+footer{
+    background-image: linear-gradient(to right,#414141, black);
+    color: white;
+}
+.forty{
+    width: 40%;
+    margin: 30px 0;
+}
+.twenty{
+    width: 20%;
+    padding-left: 50px;
+    margin: 30px 0;
+}
+.margin{
+    padding: 20px 0;
+}
+h3{
+    font-size: 30px;
+}
+.twenty a{
+    color: white;
+    text-decoration: none;
+}
